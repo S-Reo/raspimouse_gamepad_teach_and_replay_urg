@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="urg_node" name="urg_node" type="urg_node" required="true" />
+	<node pkg="raspimouse_gamepad_teach_and_replay_urg" name="running_with_lidar" type="running_with_lidar.py" required="true" output="screen"/>
+</launch>
